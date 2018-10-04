@@ -46,7 +46,7 @@ Import this to any of your API views, for which you want to authenticate
 
 Add this to your class/function/method body in which you want authentication
   
-    permission_classes =( HasAPIAccess, )
+    permission_classes = ( HasAPIAccess, )
 
 
 Now Ready to run and test:
